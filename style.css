@@ -1,0 +1,139 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+header {
+    display: flex;                 
+    justify-content: center;       
+    height: 100px;                  
+}
+
+.container {
+    max-width: 1366px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0px 30px;
+    align-items: center;
+}
+
+.box {
+    background-color: #E2E2E2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#Logo {
+    width: 200px;
+    height: 60px;
+}
+
+#Menu {
+    width: 820px;
+    height:34px;
+}
+
+#Button {
+    width: 120px;
+    height: 42px;
+}
+
+.section-1 {
+    display: flex;                 
+    justify-content: center;   
+    height: 680px;
+}
+
+#Content {
+    width: 585px;
+    height:267px;
+}
+
+#Image {
+    width: 585px;
+    height: 520px;
+}
+
+.color {
+    background-color: #F1F1F1;
+}
+
+.color2 {
+    background-color:  #E2E2E2;   
+}
+
+.section-2 {
+    display: flex;                
+    justify-content: center;   
+    height: 1150px;
+}
+
+.container2 {
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 40px 0px;
+}
+
+.box-title {
+    width: 600px;
+    height: 80px
+}
+
+.container2_item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.container2_item1 {
+    width: 380px;
+    height: 420px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    height: 580px;
+}
+
+.section-3 .container2 {
+    max-width: 1366px;
+    width: 100%;
+}
+
+.container2_item2 {
+    height: 300px;
+    width: 216px;
+}    
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    height: 580px;
+}
+
+.section-4 .container2 {
+    max-width: 1366px;
+    width: 100%;
+}
+
+.container2_item3 {
+    height: 300px;
+    width: 277.5px;
+} 
+
+footer {
+    display: flex;                 
+    justify-content: center;       
+    height: 100px;                  
+}
